@@ -11,9 +11,12 @@ $ vagrant up
 
 The VM will publish on port `5984` to see couchDB.  To check that your DB is running:
 
-```
+``` sh
 $ curl http://localhost:5984
+```
+You shou see a similar response to this.
 
+```sh
 {
   "couchdb": "Welcome",
   "uuid": "90e9c243e0f3d5297e2c8854cbdc83dd",
